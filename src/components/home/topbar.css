@@ -1,0 +1,244 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+
+.topbar-box {
+  font-family: "Poppins", sans-serif;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  padding: 0px 20px;
+}
+
+.topbar-language {
+  display: flex;
+  width: 100%;
+}
+
+.topbar-currancy-pic {
+  width: 45px;
+  height: 25px;
+}
+
+.topbar-currancy-name p {
+  color: rgb(199, 199, 199);
+  border-right: 1px solid rgb(199, 199, 199);
+  margin: 0px;
+  margin-left: 20px;
+  padding-right: 10px;
+}
+
+.topbar-language-pic svg {
+  color: gray;
+  font-size: 1.5em;
+  margin-left: 10px;
+}
+
+.topbar-language-name p {
+  color: rgb(199, 199, 199);
+  margin: 0px;
+  padding-left: 10px;
+}
+
+.topbar-logo {
+  height: 110px;
+  width: 150px;
+  margin-top: 5px;
+}
+
+.topbar-logo-box {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.topbar-icons {
+  width: 100%;
+  text-align: right;
+  cursor: pointer;
+}
+.topbar-icons ul li {
+  list-style: none;
+  display: inline;
+  padding: 10px;
+}
+.topbar-icons ul li svg {
+  color: #e0c37c;
+  font-size: 1.5em;
+}
+
+@media only screen and (max-width: 600px) {
+  .topbar-language {
+    display: none;
+  }
+  .topbar-logo-box img {
+    height: 100%;
+    width: 100%;
+  }
+
+  .topbar-icons {
+    width: 100%;
+    margin: 0;
+    font-size: 15px;
+  }
+}
+
+/*
+login
+*/
+.container {
+  z-index: 9999;
+  width: 50%;
+  height: 67vh;
+  background-color: #fff;
+  display: flex;
+  position: absolute;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.left-box {
+  width: 50%;
+  border: 1px solid black;
+
+  background-color: #043b9f;
+}
+
+.right-box {
+  width: 50%;
+  border: 1px solid black;
+}
+
+.login-buttons {
+  position: relative;
+  top: 15%;
+  text-align: center;
+}
+
+.login-buttons h1 {
+  color: #fff;
+}
+
+.login-buttons button {
+  width: 80%;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #ffff;
+  font-size: 16px;
+}
+
+.upper-buttons {
+  width: 40%;
+  position: relative;
+  left: 55%;
+  margin-top: 1rem;
+}
+
+.first-button {
+  background-color: transparent;
+  border: 1px solid rgb(163, 163, 163);
+  padding: 0.2rem;
+  width: 50%;
+}
+
+.second-button {
+  border: 1px solid rgb(163, 163, 163);
+  background-color: #043b9f;
+  color: #fff;
+  padding: 0.2rem;
+  width: 50%;
+}
+
+.form-credentials {
+  width: 80%;
+
+  height: 50vh;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  margin-top: 3rem;
+}
+
+.form-signup-credentials {
+  width: 80%;
+
+  height: 50vh;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  margin-top: 3rem;
+  display: none;
+}
+
+.form-credentials h1 {
+  margin-bottom: 2rem;
+}
+
+.form-credentials p {
+  font-size: 14px;
+}
+
+.form-credentials input {
+  border: none;
+  border-bottom: 1px solid gray;
+  margin-bottom: 1rem;
+  width: 80%;
+}
+
+.form-credentials button {
+  padding: 1rem;
+  background-color: #043b9f;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  margin-top: 2rem;
+  width: 80%;
+}
+
+.form-signup-credentials input {
+  border: none;
+  border-bottom: 1px solid gray;
+  margin-bottom: 1rem;
+  width: 80%;
+}
+
+.form-signup-credentials button {
+  padding: 1rem;
+  background-color: #043b9f;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  margin-top: 2rem;
+  width: 80%;
+}
+.lower-info {
+  display: flex;
+}
+
+.lower-info div {
+  width: 50%;
+}
+
+.lower-info p {
+  margin-top: 1rem;
+  font-size: 12px;
+}
+.userlogo {
+  background-color: #fff;
+  width: 30%;
+  height: 17vh;
+  border-radius: 50%;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.userlogo img {
+  width: 200px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+}

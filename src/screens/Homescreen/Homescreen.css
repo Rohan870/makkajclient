@@ -1,0 +1,374 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+
+/* Sliderbottom */
+
+.sliderbottom-box {
+  background-color: #000;
+  height: 68vh;
+}
+
+.sliderbottom-head1 p,
+.sliderbottom-head2 p,
+.sliderbottom-head3 p,
+.sliderbottom-icons div,
+.sliderbottom-know p {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+}
+.sliderbottom-head1 p {
+  font-size: 1.2em;
+  color: #c69736;
+  margin-top: 3rem;
+}
+.sliderbottom-head2 p {
+  font-size: 2em;
+  font-style: italic;
+  font-family: "Freight-Rg";
+}
+.sliderbottom-head3 {
+  width: 100%;
+  text-align: center;
+}
+.sliderbottom-head3 p {
+  font-size: 1.2em;
+  padding: 0px 29%;
+  font-weight: 100;
+}
+.sliderbottom-flex div {
+  list-style: none;
+  display: inline;
+  padding: 30px;
+}
+.sliderbottom-flex div p {
+  margin: 0px;
+  font-weight: 400;
+}
+.sliderbottom-flex div svg {
+  font-size: 2em;
+  color: #c69736;
+}
+.sliderbottom-flex {
+  display: flex;
+  justify-content: center;
+}
+
+.sliderbottom-know p {
+  font-style: italic;
+  color: #c69736;
+}
+
+.button-know {
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  color: #fff;
+  font-style: italic;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+  cursor: pointer;
+}
+
+/* Lower Banner */
+
+.largeimage {
+  background-image: url("../../assets/images/layer_085.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  height: 100vh;
+}
+
+.largeimage {
+  color: #fff;
+}
+
+.inner {
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  left: 50%;
+  width: 40%;
+  top: 23%;
+}
+
+.inner h1 {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 500;
+  letter-spacing: 0.2rem;
+}
+
+.inner p {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 2.9rem;
+  letter-spacing: 0.1rem;
+}
+
+.inner button {
+  text-align: center;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  padding: 1rem;
+  border: 2px solid #c69736;
+  background-color: transparent;
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.borderbottom {
+  border-bottom: 1px solid gray;
+  width: 40%;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  margin-bottom: 2rem;
+}
+
+/* Categories */
+
+.categories {
+  height: 88vh;
+  width: 100%;
+  border-top: 2px solid #fff;
+  text-align: center;
+}
+
+.categories h1 {
+  color: #fff;
+  font-weight: lighter;
+  letter-spacing: 0.3rem;
+  margin-bottom: 3rem;
+}
+
+.categories h3 {
+  color: #c69736;
+  font-weight: lighter;
+  letter-spacing: 0.3rem;
+  margin-top: 3rem;
+}
+
+.row-images {
+  display: flex;
+  height: 40vh;
+}
+
+.firstimage {
+  background-image: url("../../assets/images/fulvio-ciccolo-iDDGJt3veps-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40vh;
+  width: 25%;
+  margin: 0.5rem;
+  margin-left: 2rem;
+}
+
+.secondimage {
+  background-image: url("../../assets/images/miska-sage-GnF5Xpu-764-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40vh;
+  width: 25%;
+  margin: 0.5rem;
+}
+
+.thirdimage {
+  background-image: url("../../assets/images/miska-sage-UpoUiGj-qg8-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40vh;
+  width: 25%;
+  margin: 0.5rem;
+}
+
+.fourthimage {
+  background-image: url("../../assets/images/sara-saleh-cpisiUDKAqE-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40vh;
+  width: 25%;
+  margin: 0.5rem;
+  margin-right: 2rem;
+}
+
+.row-images button {
+  position: relative;
+  top: 50%;
+  transform: translate(0, -50%);
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  border: 2px solid #c69736;
+  font-weight: 550;
+  letter-spacing: 0.2rem;
+}
+
+.categories-button {
+  padding: 1rem;
+  border: 2px solid #c69736;
+  background-color: transparent;
+  color: #fff;
+  font-weight: 500;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  letter-spacing: 0.1rem;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+/* BESTSELLER SECTION */
+
+.bestseller-section {
+  height: 110vh;
+  text-align: center;
+}
+
+.bestseller-section img {
+  margin-top: 2rem;
+}
+
+.bestseller-section h1 {
+  color: #fff;
+  font-weight: lighter;
+  letter-spacing: 0.3rem;
+  margin-bottom: 3rem;
+}
+
+.bestseller-section h3 {
+  color: #c69736;
+  font-weight: lighter;
+  letter-spacing: 0.3rem;
+  margin-top: 3rem;
+}
+
+.bestseller-innersection {
+  display: flex;
+}
+
+.bestseller-innersection .first {
+  width: 25%;
+  border: 2px solid #fff;
+  border-left: none;
+  height: 90vh;
+}
+
+.bestseller-innersection .divide {
+  height: 45vh;
+  width: 100%;
+  border-bottom: 2px solid #fff;
+}
+
+.bestseller-innersection .divide1 {
+  height: 45vh;
+  width: 100%;
+}
+.first h3 {
+  font-weight: bold;
+  margin-top: -0.2rem;
+}
+
+.first h4 {
+  font-weight: lighter;
+  color: #fff;
+  font-size: 20px;
+  letter-spacing: 0.2rem;
+}
+
+/* TESTIMONIAL */
+
+.testimonial-heading {
+  color: #fff;
+  text-align: center;
+  position: relative;
+  top: 30%;
+}
+.testimonial-heading h1 {
+  color: #fff;
+  font-weight: lighter;
+  letter-spacing: 0.3rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .sliderbottom-box {
+    background-color: black;
+    height: auto;
+  }
+  .sliderbottom-head3 p {
+    font-size: 0.9em;
+    padding: 0px 12%;
+    font-weight: 100;
+  }
+  .sliderbottom-flex div {
+    width: 0%;
+    margin: 0rem;
+    padding: 37px;
+    position: relative;
+    left: -19px;
+    font-size: 16px;
+    text-align: center;
+  }
+  .sliderbottom-flex div p {
+    font-size: 10px;
+    text-align: center;
+  }
+
+  .categories {
+    height: auto;
+  }
+
+  .row-images {
+    display: block;
+    height: auto;
+  }
+
+  .firstimage {
+    width: 83%;
+  }
+  .secondimage {
+    width: 83%;
+    margin: 2rem;
+  }
+  .thirdimage {
+    width: 83%;
+    margin: 2rem;
+  }
+  .fourthimage {
+    width: 83%;
+    margin: 2rem;
+  }
+
+  .categories-button {
+    padding: 0.7rem;
+    border: 2px solid #c69736;
+    background-color: transparent;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 1rem;
+    letter-spacing: 0.1rem;
+    cursor: pointer;
+    margin-bottom: 2rem;
+  }
+  .largeimage {
+    height: auto;
+  }
+  .inner button {
+    margin-bottom: 1rem;
+  }
+
+  .inner {
+    position: relative;
+    left: 0;
+    width: 100%;
+    top: 10%;
+  }
+}

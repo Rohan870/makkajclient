@@ -1,0 +1,12 @@
+.payment-page {
+  display: flex;
+  flex-wrap: wrap;
+  color: #fff;
+  border-bottom: 1px solid #c69736;
+  height: auto;
+}
+
+.payment-left-info {
+  height: auto;
+  width: 60%;
+}
